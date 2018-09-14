@@ -4,7 +4,6 @@ class Hopscotch {
 	int hopscotch(int[][] land) {
 		int answer = 0;
 
-		// {실행} 버튼을 누르면 출력 값을 볼 수 있습니다.
 		int[] tempRow = new int[4];
 		
 		for (int j = 0; j < land[0].length; j++) {
@@ -19,7 +18,7 @@ class Hopscotch {
 			}
 		}
 		
-		System.out.println("정답: " + answer);
+		System.out.println("Answer: " + answer);
 		return answer;
 	}
 	
