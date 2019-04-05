@@ -38,7 +38,7 @@ class Solution {
 		Solution s = new Solution();
 
 		numbers = "123";
-		System.out.println(s.solution(numbers));
+		s.solution(numbers);
 
 	}
 
